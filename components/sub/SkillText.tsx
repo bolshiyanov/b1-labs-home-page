@@ -20,13 +20,13 @@ const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
         >
-            Select and click on any icon that you like.
+            We will provide you with a variety of tools for testing growth hypotheses
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
         className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
         >
-            We will prepare personal settings free
+            Explore the success of similar teams
         </motion.div>
     </div>
   )

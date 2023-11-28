@@ -8,6 +8,7 @@ import {
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
 import SkillText from "../sub/SkillText";
+import { Libre_Baskerville, Lisu_Bosa } from "next/font/google";
 
 const Skills = () => {
   return (
@@ -42,16 +43,17 @@ const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {Backend_skill.map((image, index) => (
-          <SkillDataProvider
-            key={index}
-            src={image.Image}
-            width={image.width}
-            height={image.height}
-            index={index}
-          />
-        ))}
-      </div>
+  {Backend_skill.map((image, index) => (
+    <SkillDataProvider
+      key={index}
+      src={image.Image}
+      width={image.width}
+      height={image.height}
+      index={index}
+      
+    />
+  ))}
+</div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Full_stack.map((image, index) => (
           <SkillDataProvider

@@ -54,7 +54,7 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          href="#skills"
+          href="https://dash.b1-labs.com"
         >
           Growth right now!
         </motion.a>
