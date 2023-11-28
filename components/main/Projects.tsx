@@ -19,7 +19,7 @@ const Projects = () => {
         <ProjectCard
           src="/NextWebsite.png"
           title="For BA & PM"
-          description="Enhance your expertise, engage in mindful  work. Showcase all your accomplishments to SEO and confidently request a well-deserved salary increase."
+          description="Enhance your expertise, engage in mindful  work. Showcase all your accomplishments to CEO and confidently request a well-deserved salary increase."
         />
        
         <ProjectCard
